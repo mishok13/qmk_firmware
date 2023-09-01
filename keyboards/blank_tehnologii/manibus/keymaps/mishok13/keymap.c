@@ -11,7 +11,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //   ├────────┼────────┼────────┼────────┼────────┼────────┤                       ├────────┼────────┼────────┼────────┼────────┼────────┤
       KC_TAB,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                            KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, RSFT_T(KC_QUOT),
 //   ├────────┼────────┼────────┼────────┼────────┼────────┤                       ├────────┼────────┼────────┼────────┼────────┼────────┤
-      LSFT_T(KC_TAB),KC_Z,KC_X,  KC_C,    KC_V,    KC_B,                            KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_BSLS,
+      KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                            KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_BSLS,
 //   ├────────┼────────┼────────┼────────┼────────┼────────┼──────────────┐     ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
       MEH(KC_NO),KC_PGUP,KC_PGDN,  MO(1), KC_LGUI, LCTL_T(KC_DEL),LALT_T(KC_SPC),LCTL_T(KC_ENT),LALT_T(KC_BSPC),MO(1),KC_LBRC, KC_RBRC, LCA_T(KC_HOME),  MT(MOD_LCTL | MOD_LGUI, KC_END)
 //   └────────┴────────┴────────┴────────┴────────┴────────┴──────────────┘     └────────┴────────┴────────┴────────┴────────┴────────┴────────┘

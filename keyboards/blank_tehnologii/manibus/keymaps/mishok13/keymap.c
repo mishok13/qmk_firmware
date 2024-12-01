@@ -25,7 +25,16 @@ _______, KC_PGUP, _______, _______, _______, _______, KC_LALT, KC_DEL, _______, 
   )
 };
 
-const uint16_t PROGMEM test_combo[] = {KC_D, KC_F, COMBO_END};
+const uint16_t PROGMEM combo_df[] = {KC_D, KC_F, COMBO_END};
+const uint16_t PROGMEM combo_fg[] = {KC_F, KC_G, COMBO_END};
+const uint16_t PROGMEM combo_vb[] = {KC_V, KC_B, COMBO_END};
+
 combo_t key_combos[] = {
-    COMBO(test_combo, KC_A),
+    COMBO(combo_df, KC_LALT),
+    COMBO(combo_fg, KC_LCTL),
+
+    COMBO(combo_vb, LSFT(KC_LCTL)),
+    COMBO(combo_cv, LSFT(KC_LALT)),
+    COMBO(combo_xc, KC_MEH),
+    COMBO(combo_zx, KC_HYPR)),
 };

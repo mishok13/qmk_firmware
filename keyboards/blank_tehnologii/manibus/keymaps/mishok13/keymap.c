@@ -1,3 +1,19 @@
+/* Copyright 2022 mishok13
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
 #include QMK_KEYBOARD_H
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -71,18 +87,18 @@ combo_t key_combos[] = {
      COMBO(combo_cv, LSFT(KC_LALT)),
      COMBO(combo_vb, LSFT(KC_LCTL)),
 
-    COMBO(combo_po, LCTL(KC_LALT)),
-    COMBO(combo_oi, LALT(KC_LGUI)),
-    COMBO(combo_iu, LCTL(KC_LGUI)),
-    COMBO(combo_uy, LCTL(LALT(KC_LGUI))),
+     COMBO(combo_po, LCTL(KC_LALT)),
+     COMBO(combo_oi, LALT(KC_LGUI)),
+     COMBO(combo_iu, LCTL(KC_LGUI)),
+     COMBO(combo_uy, LCTL(LALT(KC_LGUI))),
 
-    COMBO(combo_scln_l, KC_LGUI),
-    COMBO(combo_lk, KC_LSFT),
-    COMBO(combo_kj, KC_LALT),
-    COMBO(combo_jh, KC_LCTL),
+     COMBO(combo_scln_l, KC_LGUI),
+     COMBO(combo_lk, KC_LSFT),
+     COMBO(combo_kj, KC_LALT),
+     COMBO(combo_jh, KC_LCTL),
 
-    COMBO(combo_slsh_dot, KC_HYPR),
-    COMBO(combo_dot_comm, KC_MEH),
-    COMBO(combo_comm_m, LSFT(KC_LALT)),
-    COMBO(combo_mn, LSFT(KC_LCTL)),
+     COMBO(combo_slsh_dot, KC_HYPR),
+     COMBO(combo_dot_comm, KC_MEH),
+     COMBO(combo_comm_m, LSFT(KC_LALT)),
+     COMBO(combo_mn, LSFT(KC_LCTL)),
 };

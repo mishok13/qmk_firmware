@@ -1,1 +1,1 @@
-COMBO_ENABLED = yes
+COMBO_ENABLE = yes
